@@ -1,0 +1,11 @@
+vim.keymap.set('n', 'h', '<Nop>', { noremap = true, silent = true })
+vim.keymap.set('v', 'h', '<Nop>', { noremap = true, silent = true })
+
+vim.keymap.set('n', 'j', 'h', { noremap = true, silent = true })
+vim.keymap.set('n', 'k', 'j', { noremap = true, silent = true })
+vim.keymap.set('n', 'l', 'k', { noremap = true, silent = true })
+vim.keymap.set('n', 'ö', 'l', { noremap = true, silent = true })
+vim.keymap.set('v', 'j', 'h', { noremap = true, silent = true })
+vim.keymap.set('v', 'k', 'j', { noremap = true, silent = true })
+vim.keymap.set('v', 'l', 'k', { noremap = true, silent = true })
+vim.keymap.set('v', 'ö', 'l', { noremap = true, silent = true })
